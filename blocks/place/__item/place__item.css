@@ -1,4 +1,4 @@
-.places__item {
+.place__item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto, 1fr);
@@ -10,19 +10,19 @@
     margin: 0 auto 80px;
 }
 @media screen and (max-width: 1024px) {
-    .places__item {
+    .place__item {
         gap: 48px 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .places__item {
+    .place__item {
         gap: 48px 28px;
         margin: 0 auto 73px;
     }
 }
 @media screen and (max-width: 767px) {
-    .places__item {
+    .place__item {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(auto, 1fr);
         grid-template-areas: 
