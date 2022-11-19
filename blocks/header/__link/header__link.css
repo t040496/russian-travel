@@ -2,3 +2,6 @@
     color: #FFFFFF;
     text-decoration-line: none;
 }
+.header__link:last-child{
+    margin-left: 18px;
+}
