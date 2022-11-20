@@ -1,6 +1,10 @@
 .place__website {
     grid-area: website;
     list-style-type: none;
-    padding: 0 0 0 16px;
     align-self: end;
+}
+@media screen and (max-width: 320px) {
+    .place__website {
+        padding: 0 0 0 16px;
+    }
 }
